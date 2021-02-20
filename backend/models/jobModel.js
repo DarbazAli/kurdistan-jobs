@@ -47,6 +47,4 @@ const jobSchema = mongoose.Schema({
   },
 })
 
-// jobSchema.createIndex({ expire_at: 1 }, { expireAfterSeconds: 10 })
-
 export default mongoose.model('Jobs', jobSchema)
